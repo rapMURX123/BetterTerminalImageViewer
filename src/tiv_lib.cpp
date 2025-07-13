@@ -1,34 +1,31 @@
 /*
- * Copyright (c) 2017-2023, Stefan Haustein, Aaron Liu
+ * Copyright (c) 2025 Stefan Haustein, Aaron Liu and rapMURX123
  *
- *     This file is free software: you may copy, redistribute and/or modify it
- *     under the terms of the GNU General Public License as published by the
- *     Free Software Foundation, either version 3 of the License, or (at your
- *     option) any later version.
+ * This program is free software: you may copy, redistribute and/or modify it
+ * under the terms of (at your option) either the Apache License, Version 2.0,
+ * or the GNU General Public License as published by the Free Software Foundation,
+ * version 3, or any later version.
  *
- *     This file is distributed in the hope that it will be useful, but
- *     WITHOUT ANY WARRANTY; without even the implied warranty of
- *     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- *     General Public License for more details.
+ * This file is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  *
- *     You should have received a copy of the GNU General Public License
- *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ * For details, see either
+ *   https://www.apache.org/licenses/LICENSE-2.0 for the Apache License, Version 2.0,
+ * or
+ *   https://www.gnu.org/licenses/gpl-3.0.en.html for the GNU GPL, version 3.
  *
- * Alternatively, you may copy, redistribute and/or modify this file under
- * the terms of the Apache License, version 2.0:
+ * Note that this code includes the CImg library,
+ * which is licensed under either
+ *   CeCILL 2.0 (https://spdx.org/licenses/CECILL-2.0.html)
+ *   (close to GPL and compatible with it) or
+ *   CeCILL-C (https://spdx.org/licenses/CECILL-C)
+ *   (close to LGPL and compatible with Apache).
  *
- *     Licensed under the Apache License, Version 2.0 (the "License");
- *     you may not use this file except in compliance with the License.
- *     You may obtain a copy of the License at
- *
- *         https://www.apache.org/licenses/LICENSE-2.0
- *
- *     Unless required by applicable law or agreed to in writing, software
- *     distributed under the License is distributed on an "AS IS" BASIS,
- *     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- *     See the License for the specific language governing permissions and
- *     limitations under the License.
+ * This project is a fork of Terminal Image Viewer (tiv) by Stefan Haustein.
+ * The fork is maintained by rapMURX123 and distributed under the same licensing terms.
  */
+
 
 #include "tiv_lib.h"
 
