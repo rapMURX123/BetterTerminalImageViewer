@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2024 Stefan Haustein, Aaron Liu and rapMURX123
+ * Copyright (c) 2025 Stefan Haustein, Aaron Liu and rapMURX123
  *
  * This program is free software: you may copy, redistribute and/or modify it
  * under the terms of (at your option) either the Apache License, Version 2.0,
