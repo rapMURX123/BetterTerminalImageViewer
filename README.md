@@ -126,3 +126,7 @@ For the example below, the top image was generated with the character optimizati
 
 You are free to use this code under either the GPL (3 or later) or version 2.0 of the Apache license. We include the CImg library, which
 is licensed under either [CeCILL 2.0](https://spdx.org/licenses/CECILL-2.0.html) (close to GPL and compatible with it) or [CeCILL-C] (https://spdx.org/licenses/CECILL-C) (close to LGPL and compatible with Apache).
+This project is a fork of [Terminal Image Viewer (tiv)](https://github.com/stefanhaustein/TerminalImageViewer) by Stefan Haustein.
+Original code is licensed under the **Apache 2.0 or GPL-3.0-or-later dual license**.
+This fork is maintained by [rapMURX123](https://github.com/rapMURX123) and is distributed under the same licensing terms.
+SPDX-License-Identifier: Apache-2.0 OR GPL-3.0-or-later
