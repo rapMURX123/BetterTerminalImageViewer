@@ -39,35 +39,13 @@ Support for MSVC has been added and the repository is now under an Apache 2.0 or
 Our makefile currently only supports `g++`. It should be possible to compile `tiv` manually using any of your favorite compilers that support C++17 and Unix headers (`ioctl.h` and `sysexits.h`, specifically) or `windows.h`. PRs are welcome.
 
 ```sh
-git clone https://github.com/stefanhaustein/TerminalImageViewer.git
-cd TerminalImageViewer/src
+git clone https://github.com/rapMURX123/BetterTerminalImageViewer.git
+cd BetterTerminalImageViewer/src
 make
 
 # To move the tiv binary into your PATH (hopefully), also do
 sudo make install
 ```
-
-Please don't forget to install ImageMagick... On Debian based Linux via `sudo apt install imagemagick` and
-on MacOS via `brew install imagemagick`.
-
-### Mac: Homebrew
-
-```sh
-brew install tiv
-```
-
-As the original Apple Shell only supports 256 color mode (-256) and there seems to be some extra 
-line spacing, distorting the image, we also recommend installing iTerm2:
-
-```
-brew install --cask iterm2
-```
-
-### Third-Party Packages
-
-- @megamaced has created [an RPM for SUSE](https://build.opensuse.org/package/show/home:megamaced/terminalimageviewer)
-- @bperel has created [a Docker image](https://hub.docker.com/r/bperel/terminalimageviewer)
-
 
 ## Common problems / Troubleshooting
 
@@ -81,8 +59,8 @@ brew install --cask iterm2
 
 Tiv can be used as an API. So if you always wanted to run your favorite FPS in a shell, this is the opportunity.
 
-All the code useful as a library is isolated in [tiv_lib.h](https://github.com/stefanhaustein/TerminalImageViewer/blob/master/src/tiv_lib.h) 
-and [tiv_lib.cc](https://github.com/stefanhaustein/TerminalImageViewer/blob/master/src/tiv_lib.cc).
+All the code useful as a library is isolated in [tiv_lib.h](https://github.com/rapMURX123/BetterTerminalImageViewer/blob/master/src/tiv_lib.h) 
+and [tiv_lib.cc](https://github.com/rapMURX123/BetterTerminalImageViewer/blob/master/src/tiv_lib.cc).
 
 The main entry point is 
 
